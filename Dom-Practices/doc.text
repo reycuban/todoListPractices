@@ -1,0 +1,37 @@
+
+
+
+
+
+
+
+//It selects the first element being called
+//document.querySelector('h1');
+//​Using the DOM​
+
+//By calling all we will be able to manipulate
+//it is recomend to use this one, more powerfull , its like css in other wor
+//document.querySelectorAll('li, h1');
+//NodeList(7) [h1, li, li, li, li, li, li]
+
+//This a way to get the attribue , in other words the value assigned
+//document.querySelector('li');
+//
+//document.querySelector('li').getAttribute('random');
+//<li random=​"23">​Not idea​</li>​
+//outcome "23 thats the attribute we are lookng for"
+
+//we can also give a value by using
+//document.querySelector('li').setAttribute('random', "1000");
+//<li random="1000"></li>
+
+//This is a way to change properties using css
+//document.querySelector('h1').style.background ="red";
+// h1 background turns red,but there is a better by doing this
+
+
+//using this u can add a class to the selector, but stored in var
+//var h1 = document.querySelector('h1');
+//h1.className = 'coolTitle';
+//"coolTitle"
+//The text changed with the style of the css
